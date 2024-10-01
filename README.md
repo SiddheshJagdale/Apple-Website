@@ -1,65 +1,74 @@
-Apple Website Clone
-This project is a responsive clone of the Apple website, built with modern technologies such as Vite, React, Tailwind CSS, and GSAP for smooth animations. The design replicates Apple's clean and minimalist aesthetic, optimized for all devices.
+# Apple Website Clone
 
+This project is a **responsive clone** of the Apple website, built with modern technologies such as **Vite**, **React**, **Tailwind CSS**, and **GSAP** for smooth animations. The design replicates Apple's clean and minimalist aesthetic, optimized for all devices.
 
-Table of Contents
-Features
-Technologies Used
-Installation
-Project Structure
-Screenshots
-License
-Features
-Responsive Design: Fully responsive and works seamlessly across desktops, tablets, and mobile devices.
-Smooth Animations: Uses GSAP for creating smooth animations and interactions.
-Optimized for Performance: Fast load times and efficient rendering with Vite's optimized build process.
-Modern UI: Clean, minimalistic design similar to Apple's official website.
-Technologies Used
-Technology	Description	Icon
-Vite	Next-generation build tool for fast development.	
-React	Frontend library for building user interfaces.	
-Tailwind CSS	Utility-first CSS framework for rapid styling.	
-GSAP	High-performance JavaScript animation library.	
-Installation
+![Apple Website Homepage](./screenshots/homepage.png)
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [License](#license)
+
+## Features
+
+- **Responsive Design**: Fully responsive and works seamlessly across desktops, tablets, and mobile devices.
+- **Smooth Animations**: Uses GSAP for creating smooth animations and interactions.
+- **Optimized for Performance**: Fast load times and efficient rendering with Vite's optimized build process.
+- **Modern UI**: Clean, minimalistic design similar to Apple's official website.
+
+## Technologies Used
+
+| Technology     | Description                                        | Icon                                                                 |
+|----------------|----------------------------------------------------|----------------------------------------------------------------------|
+| Vite           | Next-generation build tool for fast development.   | ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge) |
+| React          | Frontend library for building user interfaces.     | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge) |
+| Tailwind CSS   | Utility-first CSS framework for rapid styling.     | ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white&style=for-the-badge) |
+| GSAP           | High-performance JavaScript animation library.     | ![GSAP](https://img.shields.io/badge/-GSAP-88CE02?logo=greensock&logoColor=white&style=for-the-badge) |
+
+## Installation
+
 Follow these steps to set up and run the project locally.
 
-Prerequisites
+### Prerequisites
+
 Ensure you have the following tools installed:
 
-Node.js (version 14+)
-Git
-Steps
-Clone the repository:
+- [Node.js](https://nodejs.org/) (version 14+)
+- [Git](https://git-scm.com/)
 
-bash
-Copy code
-git clone https://github.com/SiddheshJagdale/Apple-Website.git
-cd Apple-Website
-Install dependencies:
+### Steps
 
-bash
-Copy code
-npm install
-Start the development server:
+1. Clone the repository:
 
-bash
-Copy code
-npm run dev
-Open the project in your browser at http://localhost:3000.
+    ```bash
+    git clone https://github.com/SiddheshJagdale/Apple-Website.git
+    cd Apple-Website
+    ```
 
-Build for Production
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. Open the project in your browser at `http://localhost:3000`.
+
+### Build for Production
+
 To build the project for production:
 
-bash
-Copy code
+```bash
 npm run build
-This will generate the optimized static files in the dist folder.
-
-Project Structure
-The project structure is organized as follows:
-
-bash
-Copy code
 ├── public/                    # Public assets like images and fonts
 │   ├── apple-logo.png
 │   └── ...
@@ -81,7 +90,3 @@ Copy code
 ├── tailwind.config.js         # Tailwind CSS configuration
 ├── vite.config.js             # Vite configuration
 └── package.json               # Project dependencies and metadata
-Screenshots
-Homepage
-
-Product Page
