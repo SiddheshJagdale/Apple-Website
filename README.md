@@ -2,7 +2,7 @@
 
 This project is a **responsive clone** of the Apple website, built with modern technologies such as **Vite**, **React**, **Tailwind CSS**, and **GSAP** for smooth animations. The design replicates Apple's clean and minimalist aesthetic, optimized for all devices.
 
-![Apple Website Homepage]([./screenshots/homepage.png](https://github.com/SiddheshJagdale/Apple-Website/blob/master/images/homepage.png))
+![Apple Website Homepage](https://github.com/SiddheshJagdale/Apple-Website/blob/master/images/homepage.png)
 
 ## Table of Contents
 
